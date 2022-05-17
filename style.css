@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    margin:0;
+    color:white
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+  
+
+
+  }
+  
+  .col-1 {
+    width: 8.333333%;
+  }
+  
+  .col-2 {
+    width: 16.666667%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.333333%;
+  }
+  
+  .col-5 {
+    width: 41.666667%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.333333%;
+  }
+  
+  .col-8 {
+    width: 66.666667%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.333333%;
+  }
+  
+  .col-11 {
+    width: 91.666667%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+.navBar{
+    display: flex;
+}
+.menu{
+    background-color: dodgerblue;
+    padding:1rem;
+}
+.logo{
+    padding:1rem;
+    background-color: aquamarine;
+}
+.banner{
+    background-color: red;
+    padding: 4rem;
+}
+.chapters{
+    display: flex;
+    background-color: greenyellow;
+    height:calc( 100vh - 328px );
+    
+    
+}
+.chapters div{
+    
+    border:1px solid grey
+}
+
+.chapters2{
+    display: flex;
+    background-color: coral;
+    
+}
+.chapters2 div{
+    padding: 1rem;
+    
+    border:1px solid grey;
+
+}
+
+.footer{
+    background-color: palevioletred;
+    padding:2rem;
+    margin:0;
+}
